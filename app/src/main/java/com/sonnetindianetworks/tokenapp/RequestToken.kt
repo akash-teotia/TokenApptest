@@ -9,6 +9,7 @@ import android.widget.EditText
 import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.firestore.FirebaseFirestore
+import com.hbb20.CountryCodePicker
 import kotlinx.android.synthetic.main.activity_generate_token.*
 import kotlinx.android.synthetic.main.activity_request_token.*
 import java.util.*
@@ -51,10 +52,17 @@ class RequestToken : AppCompatActivity(),DatePickerDialog.OnDateSetListener {
         val msgOrg = orgMsg.text.toString().trim()
         val nameYour = nameYour.text.toString().trim()
         val mobileYour = mobileYour.text.toString().trim()
+        val ccpOrg: CountryCodePicker = findViewById(R.id.ccp_org)
+val  ccpYour: CountryCodePicker = findViewById(R.id.ccp_your)
+val orgMobile = "+" + ccpOrg.fullNumber + mobileOrg
+        val yourMobile = "+" + ccpYour.fullNumber + mobileYour
         if (nameOrg.isEmpty() || mobileOrg.isEmpty() || msgOrg.isEmpty() || nameYour.isEmpty() || mobileYour.isEmpty()) {
 
             Toast.makeText(this, "Enter Valid Details ", Toast.LENGTH_SHORT).show()
 
+        }
+        else{
+            val reqToken = TokenRequest(nameOrg , )
         }
 
 
