@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "821456636194",
+    "firebase_url": "https://tokenapp-24ba5.firebaseio.com",
+    "project_id": "tokenapp-24ba5",
+    "storage_bucket": "tokenapp-24ba5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:821456636194:android:a6703f51f4fe4287d9fd7b",
+        "android_client_info": {
+          "package_name": "com.sonnetindianetworks.tokenapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "821456636194-vh4vbpfde649bktssbbh9u3n26965sq8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sonnetindianetworks.tokenapp",
+            "certificate_hash": "524889f849dfa8152e1c7d631c28954e9d7a66bd"
+          }
+        },
+        {
+          "client_id": "821456636194-788aff9kgdc66vu9j0laq2ekvharaov8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIpMIDlK0TmztYhVYz7KcwngjeRMaCQNs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "821456636194-788aff9kgdc66vu9j0laq2ekvharaov8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

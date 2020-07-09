@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+    tools:context=".RequestToken">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="32dp">
+
+        <EditText
+            android:id="@+id/orgName_RequestToken"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_edittext_register"
+            android:ems="10"
+            android:hint="@string/organisation_s_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#00ACC1"
+            android:textStyle="bold"
+            android:visibility="visible" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+
+            android:background="@drawable/rounded_edittext_register"
+
+            android:orientation="horizontal">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp_org"
+
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+
+                app:ccp_autoDetectCountry="true"
+
+                app:ccp_defaultNameCode="IN"
+                app:ccp_showPhoneCode="false"
+                app:ccp_textGravity="LEFT"
+                app:ccp_textSize="16sp"/>
+
+
+        <EditText
+            android:id="@+id/OrgMobile_RequestToken"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+            android:background="@drawable/flag_transparent"
+
+            android:hint="@string/organisation_s_mobile_number"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="#00ACC1"
+            android:textStyle="bold"
+            android:visibility="visible" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/MsgOrg_RequestToken"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_edittext_register"
+            android:hint="@string/message_to_organisation"
+            android:inputType="date"
+            android:padding="10dp"
+            android:textColor="#00ACC1"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/YourName_RequestToken"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+            android:layout_marginTop="32dp"
+            android:background="@drawable/rounded_edittext_register"
+            android:hint="@string/your_name"
+            android:importantForAutofill="no"
+            android:inputType="textPersonName"
+            android:padding="10dp"
+            android:textColor="#00ACC1"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+
+            android:background="@drawable/rounded_edittext_register"
+
+            android:orientation="horizontal">
+
+            <com.hbb20.CountryCodePicker
+                android:id="@+id/ccp_your"
+
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:paddingTop="5dp"
+                android:paddingLeft="5dp"
+
+                app:ccp_autoDetectCountry="true"
+
+                app:ccp_defaultNameCode="IN"
+                app:ccp_showPhoneCode="false"
+                app:ccp_textGravity="LEFT"
+                app:ccp_textSize="16sp"/>
+
+
+
+
+
+
+
+        <EditText
+            android:id="@+id/YourMobile_requestToken"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="2"
+android:background="@drawable/flag_transparent"
+            android:hint="@string/your_mobile_number"
+            android:importantForAutofill="no"
+            android:inputType="phone"
+            android:padding="10dp"
+            android:textColor="#00ACC1"
+            android:textStyle="bold"
+            android:visibility="visible" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+
+            android:background="@drawable/rounded_edittext_register"
+
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/button_Date_RequestToken"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:background="@android:color/transparent"
+
+                app:srcCompat="@android:drawable/ic_menu_my_calendar"
+                tools:ignore="ContentDescription" />
+
+
+            <TextView
+                android:id="@+id/editText_date_RequestToken"
+                android:layout_width="0dp"
+                android:layout_height="50dp"
+                android:layout_weight="2"
+                android:autofillHints=""
+                android:background="@android:color/transparent"
+                android:hint="@string/date_of_requesting"
+                android:padding="10dp"
+                android:textColor="@android:color/black"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/button_RequestToken"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+
+android:layout_marginBottom="32dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/button_login"
+            android:text="@string/send_request"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
+

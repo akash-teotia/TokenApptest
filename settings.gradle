@@ -1,0 +1,2 @@
+rootProject.name='TokenApp'
+include ':app'

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_bg"
+
+    tools:context=".AwaitingRequest">
+
+    <TextView
+        android:id="@+id/textView_appName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="#00ACC1"
+
+        android:fontFamily="@font/vampiro_one"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+    android:id="@+id/textView_goBack_generateToken"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="32dp"
+    android:layout_marginTop="60dp"
+
+    android:text="Go Back"
+    android:textColor="#00ACC1"
+    android:textSize="18sp"
+    android:textStyle="bold"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+
+    />
+
+    <Button
+        android:id="@+id/button_CreateToken_AwaitingRequest"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+
+
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="580dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/button_login"
+        android:text="Create Token"
+        android:textColor="#0097A7"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_appName" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

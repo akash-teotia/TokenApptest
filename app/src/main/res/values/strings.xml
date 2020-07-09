@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Token Net</string>
+    <string name="register">Register</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="name">Name</string>
+    <string name="profession">Profession</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="already_have_a_account">Already have a account?</string>
+    <!-- <string name="mobile_number">Mobile Number</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>-->
+    <string name="login">Login</string>
+    <string name="otp">OTP</string>
+    <string name="verify">Verify</string>
+    <string name="signin">SignIn</string>
+    <string name="send_otp">Send OTP</string>
+    <string name="create_a_new_account">Create a New Account!</string>
+    <string name="issued_by">Issued By</string>
+    <string name="sign_out">Sign out</string>
+    <string name="go_back">Go Back</string>
+    <string name="profile">Profile</string>
+    <string name="my_profile">My Profile</string>
+    <string name="awaiting_request">Awaiting Request</string>
+    <string name="clear_token">Clear Token</string>
+    <string name="send_token">Send Token</string>
+    <string name="token_number">Token Number</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="log_out">Log Out</string>
+    <string name="generate_token">Generate Token</string>
+    <string name="request_token">Request Token</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">Date</string>
+    <string name="remarks">Remarks</string>
+    <string name="date_of_requesting">Date of Requesting</string>
+    <string name="your_mobile_number">Your Mobile Number</string>
+    <string name="your_name">Your Name</string>
+    <string name="message_to_organisation">Message To Organisation</string>
+    <string name="organisation_s_mobile_number">Organisation\'s Mobile Number</string>
+    <string name="organisation_s_name">Organisation\'s Name</string>
+    <string name="send_request">Send Request</string>
+</resources>
